@@ -107,20 +107,21 @@ $(document).ready(function () {
 
   // show popup
   $("#yes").click(function () {
-    var audio = new Audio("sound/gege.mp3");
+    var audio = new Audio("sound/endingL88.mp3");
     audio.play();
     Swal.fire({
       title: textConfig.text7,
       html: true,
       width: 600,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Điền vô nèooo'>",
       background: '#FFACB7 url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
                     url("img/biubiubiu.gif")
-                    left top
+                    left bottom
                     no-repeat
+                    
                   `,
       showCancelButton: false,
       confirmButtonColor: "#6900FF",
