@@ -7,7 +7,7 @@ const textConfig = {
   text6: "Đáng iu rất nhìu <3",
   text7: "Vậy Trương Tinh Đặc làm gì đáng iu nhất?",
   text8: "Yêu em bé lắm",
-  text9: "Trương Tinh Đặc thở thôi cũng quá đáng iuuuuuu rồiii",
+  text9: "Thở thôi cũng quá đáng iuuuuuu rồiii",
   text10: "Tớ biết mà ^^ Trương Tinh Đặc yêu cậu 3000",
   text11:
     "Chúc cậu Thất Tịch vui vẻ và ngày càng yêu thương em bé Trương Tinh Đặc nhiều hơn nhé",
@@ -114,7 +114,7 @@ $(document).ready(function () {
       html: true,
       width: 600,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Điền vô nèooo'>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Gõ nhiều chữ vào đây để xem lý do nhé'>",
       background: '#FFACB7 url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
