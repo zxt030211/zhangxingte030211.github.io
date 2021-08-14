@@ -5,12 +5,12 @@ const textConfig = {
   text4: "Nếu cậu ko trả lời mà thoát ra tức là Trương Tinh Đặc đáng iu nhất thế giới :>",
   text5: "Đáng iu nhưng cũng đáng đánh",
   text6: "Đáng iu rất nhìu <3",
-  text7: "Lý do Trương Tinh Đặc đáng yêu nà",
-  text8: "Yêu em bé",
-  text9: "Vì Trương Tinh Đặc quá đáng iuuuuuu",
-  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
+  text7: "Vậy Trương Tinh Đặc làm gì đáng iu nhất?",
+  text8: "Yêu em bé lắm",
+  text9: "Trương Tinh Đặc thở thôi cũng quá đáng iuuuuuu rồiii",
+  text10: "Tớ biết mà ^^ Trương Tinh Đặc yêu cậu 3000",
   text11:
-    "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
+    "Chúc cậu Thất Tịch vui vẻ và ngày càng yêu thương em bé Trương Tinh Đặc nhiều hơn nhé",
   text12: "Okii lunn <3",
 };
 
@@ -38,7 +38,7 @@ $(document).ready(function () {
       imageUrl: "img/intro.jpg",
       imageWidth: 300,
       imageHeight: 300,
-      background: '#fff url("img/iput-bg.jpg")',
+      background: '#BB371A',
       imageAlt: "Custom image",
     }).then(function () {
       $(".content").show(200);
@@ -112,18 +112,18 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text7,
       html: true,
-      width: 900,
+      width: 600,
       padding: "3em",
       html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
-      background: '#fff url("img/iput-bg.jpg")',
+      background: '#FFACB7 url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
-                    url("img/giphy2.gif")
+                    url("img/biubiubiu.gif")
                     left top
                     no-repeat
                   `,
       showCancelButton: false,
-      confirmButtonColor: "#3085d6",
+      confirmButtonColor: "#6900FF",
       cancelButtonColor: "#d33",
       confirmButtonColor: "#fe8a71",
       cancelButtonColor: "#f6cd61",
